@@ -1,0 +1,484 @@
+/* --- General --- */
+/* Set the app's size (height x width), margins and padding. */
+.App {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a style to add a box shadow (coloured and shadows set), the top margin, padding and a border radius. */
+.bs {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: #00000059 0px 5px 15px;
+}
+
+/* Set the padding, the border (sized, coloured, styled, radius set) and the background colour of the application's buttons. */
+.appbutton {
+  padding: 8px;
+  border: 2px solid #ffffffad;
+  border-radius: 10px;
+  background-color: #000000 !important;
+}
+
+/* Set the bottom margins of the rows. */
+.row {
+  margin-bottom: 35px !important;
+}
+
+/* --- Navigation --- */
+/* Set the position of the navbar to absolute and aligned it to the top left. Set the z-index and the width. */
+#navbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+/* Set the font colour of the navigation links. */
+.nav-link {
+  color: #ffffff !important;
+}
+
+/* Set for the nav links' font colour to change once hovered over. */
+.nav-link:hover {
+  color: #28a745 !important;
+}
+
+/* Set the position of the nav to relative and set the left margin. */
+.navbar-nav {
+  position: relative;
+  left: 82%;
+}
+
+/* Set the position of the nav items to relative and set the left margin. */
+.nav-item {
+  position: relative;
+  left: 50%;
+}
+
+/* Set the right margin of the user icon. */
+.fa-user {
+  margin-right: 5px;
+}
+
+/* Set the background colour of the dropdown menu, added a border (coloured, styled and sized) and set for it to float to the right. */
+.generalnav {
+  background-color: transparent !important;
+  border: 1px solid #ffffff !important;
+  float: right !important;
+  width: 210px !important;
+}
+
+/* --- Footer --- */
+/* Set the footer's position to absolute and aligned it to the left bottom margins. Also set the size (height x width) and backgound colour. */
+#footer {
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 55px;
+  background-color: #343a40;
+}
+
+/* Set the padding and font colour of the footer's text. */
+#footertext {
+  margin-left: 25px;
+  margin-top: 15px;
+  color: #ffffff;
+}
+
+/* Set the text decoration to none and the font colour of the footer link. */
+#footerlink {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Set for the link's font colour to change once hovered over. */
+#footerlink:hover {
+  color: #28a745;
+}
+
+/* --- Register/ Login --- */
+/* Set the width of the authentication's input elements*/
+.authinput {
+  width: 515px !important;
+  margin-top: 30px;
+  margin-bottom: 30px !important;
+  margin-right: 0px !important;
+}
+
+/* Set the size (height x width) od the auth container. */
+.authcontainer {
+  height: 475px;
+  width: auto;
+}
+
+/* Set the width and the margins of the auth content section. */
+.authcontent {
+  width: 500px !important;
+  margin: auto;
+}
+
+/* Set the top margin of the register content section. */
+#registercontent {
+  margin-top: 70px;
+}
+
+/* Set the top margin of the login content section. */
+#logincontent {
+  margin-top: 140px;
+}
+
+/* --- Landing Page --- */
+/* Set the height of the landing page, as well as the text and content alignment. */
+#landing {
+  text-align: center;
+  align-content: center;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 569px !important;
+  overflow-y: hidden;
+}
+
+/* Set the size (height x width) of the landing image. */
+#landingimage {
+  width: auto;
+  height: auto;
+}
+
+/* Set the landing content container's position to absolute and aligned it to the center of the page using the top, left margins and transform
+feature. */
+#landingcontent {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, 0);
+}
+
+/* Set the margins and padding of the landing column. */
+.landingcol {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Set the width, bottom margin and font colour, size and alignment of the brand name's header. Also implemented a text shadow to make it stand 
+out more.*/
+#brandname {
+  width: 840px;
+  margin-bottom: 30px;
+  font-size: 120px !important;
+  color: #ffffffd2;
+  text-align: center;
+  text-shadow: #000000 3px 5px 2px;
+}
+
+/* Set the bottom margin and font colour of the slogan header. Also implemented a text shadow to make it stand out more. */
+#slogan {
+  margin-bottom: 40px;
+  color: #ffffff;
+  text-shadow: #000000 3px 5px 2px;
+}
+
+/* Set the background colour and gradient, padding, the border (styled, sized and coloured) and border radius of the "Get Started" button. */
+#landingbutton {
+  background-color: #343a40ad;
+  background-image: radial-gradient(#000000 0%, #343a403d 74%);
+  padding: 8px;
+  border: 2px solid #ffffffad;
+  border-radius: 10px;
+}
+
+/* Set for the button's font colour to increase once hovered over. */
+#landingbutton:hover {
+  color: #28a745 !important;
+}
+
+/* --- Profile/ My Bookings --- */
+/* Set the top and left margins, as well as the height of the user info's sections. */
+.userinfo {
+  margin-top: 60px;
+  margin-left: 45px;
+  height: 509px;
+}
+
+#mybookingsrow {
+  height: auto;
+}
+
+/* Set the left margin of the Ant Design tags. */
+.ant-tag {
+  margin-left: 6px !important;
+}
+
+/* --- Activities Page --- */
+/* Set the top and bottom margins and the text alignment of the activity page's main header. */
+#activitymainheader {
+  margin-top: 75px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+/* Set the top and left margins and text alignment of the activities' container. */
+#activitycontainer {
+  margin-top: 30px;
+  margin-left: 50px !important;
+  text-align: center;
+}
+
+/* Set a box shadow (coloured and shadow set) and right margins of the activity cards. */
+.activitycard {
+  box-shadow: #00000059 0px 5px 15px;
+  margin-right: 15px !important;
+}
+
+/* Set the top and bottom margins, padding and background and font colours of the activity headers. */
+.activityheader {
+  margin-top: 10px !important;
+  margin-bottom: -20px !important;
+  padding: 5px;
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+/* Set the width of the activity images. */
+.activityimage {
+  width: 375px !important;
+}
+
+/* --- Home Page --- */
+/* Set the size (height x width) and border radius of the smaller room images. */
+.smallimg {
+  height: 200px;
+  width: auto;
+  border-radius: 5px;
+}
+
+/* Set the margins of the rooms' short descriptions of the home page. */
+.shortdes {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Set for the "Book Now" button to float to the right. */
+#bookbutton {
+  float: right;
+  margin-right: 10px !important;
+}
+
+/* Set the margins and the width of the filter section. */
+#filtercontainer {
+  margin-top: 100px !important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+/* Set the height and the border radius of the date picker's section. */
+.datepicker {
+  height: 35px !important;
+  border-radius: 4px !important;
+}
+
+/* Set the font colour of all the text elements of the date picker. */
+.anticon,
+.ant-picker-suffix,
+.ant-picker-input input::placeholder {
+  color: #000000 !important;
+}
+
+/* Set the borders (coloured, styled, sized) and the font size of the filter sections. */
+.filterinputs {
+  border: 1px #000000 solid !important;
+  font-size: 14px !important;
+}
+
+/* Set the width, background colour, left-side padding, border (styled, coloured, sized, radius set) and the font colour, size and alignment of 
+the filter type dropdown. */
+#dropdown-basic-button {
+  height: 35px !important;
+  width: 225px;
+  padding-left: 6px;
+  border: 1px #000000 solid;
+  border-radius: 4px;
+  background-color: #ffffff !important;
+  color: #000000;
+  font-size: 14px !important;
+  text-align: left;
+}
+
+/* Set the position of the dropdown's arrow to absolute and aligned it to the top- right corner. Also set the top margin. */
+.dropdown-toggle::after {
+  position: absolute;
+  right: 20px;
+  top: 60%;
+  margin-top: -5px;
+}
+
+/* Set the bottom margin, padding and border (styled, sized and coloured), as well as the font weight of the room headers. */
+.roomheading {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Set for the modal's room details to display as a grid and set the columns. */
+#roomdetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Set the carousel's right margin. */
+.carousel {
+  margin-right: 20px;
+}
+
+/* --- About Page --- */
+/* Set the top and left margins of the about and contact pages' containers. */
+#contactcontainer,
+#aboutcontainer {
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+/* Set the height and the bottom margin of the about page's image. */
+#aboutimage {
+  height: 450px !important;
+  margin-bottom: -10px !important;
+}
+
+/* Set the bottom margin of the contact and about pages' headers. */
+#contactheader,
+#aboutheader {
+  margin-bottom: 10px;
+}
+
+/* Set the text decoration, font colour and the margins of the "Click here" link. */
+#aboutlink {
+  text-decoration: none;
+  color: #28a745;
+  margin: auto 5px;
+}
+
+/* Set for the "Click here" link to change font size once hovered over. */
+#aboutlink:hover {
+  font-weight: bold;
+}
+
+/* --- Booking Page --- */
+/* Set the height of the bigger modal room images. */
+.bigimg {
+  height: 350px;
+}
+
+/* Set the bottom margins of the modal's description paragraphs. */
+.roomdescription {
+  margin-bottom: 10px;
+}
+
+/* Set the bottom margin of the bookings <p> elements. */
+.bookingdetails {
+  margin-bottom: 5px;
+}
+
+/* Set for the "Pay now" button to float to the right. */
+#paybutton {
+  float: right;
+}
+
+/* --- Admin Page --- */
+/* Set for the font colour and the cursor to change once the remove and edit icons are hovered over. */
+.fa-trash-alt:hover,
+.fa-edit {
+  color: #28a745;
+  cursor: pointer;
+}
+
+/* Set the left margin of the user's edit section. */
+#editusersection {
+  margin-left: 10px !important;
+}
+
+/* Set the widths of the table's input sections. */
+#usertd1 {
+  width: 260px;
+}
+
+#usertd2 {
+  width: 162px;
+}
+
+#usertd3 {
+  width: 200px;
+}
+
+#usertd4 {
+  width: 96px;
+}
+
+/* Set the size (height x width) and padding of the user's input sections. */
+.usereditinput {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  color: #000000;
+}
+
+/* --- Contact Page --- */
+/* Set the bottom margin of the contact page's row. */
+#contactrow {
+  margin-bottom: 5px !important;
+}
+
+/* Set the required label's asterisks and the font colour. */
+.form-group.required .control-label:after {
+  content: "*";
+  color: red;
+}
+
+/* Set the width of the contact form input sections. */
+.contactinput {
+  width: 450px !important;
+}
+
+/* Set the size (heigh x width), bottom margin and the border (coloured, styled, sized, radius set) of the message section. */
+#contactmessage {
+  height: 112px;
+  width: 450px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: 1px solid #949494 !important;
+}
+
+/* Set the top margin of the "Connect with us" header. */
+#connectheader {
+  margin-top: 20px;
+}
+
+/* Set the font size and colour of the map icon. */
+.fa-map-marked-alt {
+  font-size: 25px;
+  color: #000000;
+}
+
+/* Set the font size and colour of the Twitter, Instagram and Facebook icons. */
+.fa-twitter-square,
+.fa-facebook-square,
+.fa-instagram-square {
+  color: #000000;
+  font-size: 30px;
+}
+
+/* Set for all of the contact icons and app buttons to change font colour once hovered over. */
+.appbutton:hover,
+.fa-map-marked-alt:hover,
+.fa-twitter-square:hover,
+.fa-facebook-square:hover,
+.fa-instagram-square:hover {
+  color: #28a745 !important;
+}

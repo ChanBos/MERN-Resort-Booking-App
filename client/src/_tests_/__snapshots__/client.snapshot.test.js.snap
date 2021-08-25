@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders without crashing? 1`] = `
+<div
+  className="App"
+>
+  <link
+    crossOrigin="anonymous"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    rel="stylesheet"
+  />
+  <div
+    id="navbar"
+  >
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-dark"
+    >
+      <button
+        aria-controls="navbarScroll"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="navbarScroll"
+      >
+        <div
+          className="mr-auto my-2 my-lg-0 navbar-nav navbar-nav-scroll"
+          onKeyDown={[Function]}
+        >
+          <div
+            className="nav-item"
+          >
+            <a
+              className="nav-link"
+              data-rb-event-key="register"
+              href="register"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              Register
+            </a>
+          </div>
+          <div
+            className="nav-item"
+          >
+            <a
+              className="nav-link"
+              data-rb-event-key="login"
+              href="login"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              Login
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="row"
+    id="landing"
+  >
+    <div
+      className="col-md-12 landingcol col"
+    >
+      <img
+        alt="Casa de BoHo"
+        className="img-fluid"
+        id="landingimage"
+        src="https://i.ibb.co/FKySvT2/cauayan-island-resort-imap-1lq-T4o-unsplash2.png"
+      />
+      <div
+        id="landingcontent"
+      >
+        <h1
+          data-aos="zoom-in"
+          id="brandname"
+        >
+          Casa de Boho
+        </h1>
+        <h3
+          id="slogan"
+        >
+          "Relaxation is the stepping stone to Tranquility."
+        </h3>
+        <a
+          href="/home"
+          onClick={[Function]}
+        >
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            id="landingbutton"
+            type="button"
+          >
+            Get Started
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    id="footer"
+  >
+    <p
+      id="footertext"
+    >
+      Created by
+       
+      <a
+        href="https://www.linkedin.com/in/chanelle-b%C3%B6siger-70587767/"
+        id="footerlink"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Chanelle Bösiger
+      </a>
+    </p>
+  </div>
+</div>
+`;
