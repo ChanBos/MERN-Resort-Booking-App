@@ -10,6 +10,10 @@
 
 > A resort booking application built using the MERN Stack.
 
+![Resort Booking App](https://github.com/ChanBos/MERN-Resort-Booking-App/blob/master/client/public/images/CasaDeBoho.png)
+
+### ✨ [Deployed application](https://mern-resort-booking-app.herokuapp.com/)
+
 ## Table of Contents:
 
 - [System Architecture](#systemarchitecture)
