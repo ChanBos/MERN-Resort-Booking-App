@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Ocean Skies",
+    "imageUrls": [
+      "https://i.ibb.co/9qdfRDW/benjamin-rascoe-b-Tk-Sg5-XF4-E8-unsplash.jpg",
+      "https://i.ibb.co/F87hH7F/andrea-davis-7450h-H-84-M-unsplash.jpg",
+      "https://i.ibb.co/x3p34LM/Outdoor-greenery-shower.jpg"
+    ],
+    "rentPerDay": 1500,
+    "type": "Deluxurious",
+    "maxCount": 2,
+    "currentBookings": [],
+    "description": "This is a fully kitted luxurious cabin that is beautifully furnished and decorated to the theme of our tranquil ocean surrounds. The cabin has the following facilities: Aircon, a kitchenette with a fridge, a small stove, a microwave and a coffee station with a lavish seating area. This cabin has an outdoor shower that will still leave you feeling like you are a part of the outdoors. There is nothing more relaxing than having a shower whilst staring at the moon, hearing the waves crashing in the background. Over and above this, if you feel like a calm night in there is a braai on the front patio of the cabin that allows you to take in the gorgeous ocean and surroundings."
+  },
+  {
+    "name": "Bamboo Jungle",
+    "imageUrls": [
+      "https://i.ibb.co/Gscy6Lw/devon-janse-van-rensburg-WEDFTZV0q-U-unsplash.jpg",
+      "https://i.ibb.co/tJLxJBY/spacejoy-TKFsk-Jy8-PQ8-unsplash.jpg",
+      "https://i.ibb.co/9ZtvSW0/Outdoor-bamboo-shower.jpg"
+    ],
+    "rentPerDay": 2000,
+    "type": "Deluxurious",
+    "maxCount": 2,
+    "currentBookings": [],
+    "description": "This is a fully kitted luxurious cabin that is beautifully furnished and decorated to the theme of the woody and green bamboo that scatters our shore lines. The cabin has the following facilities: Aircon, a kitchenette with a fridge, a small stove, a microwave and a coffee station with a lavish seating area. This cabin has an outdoor shower that will still leave you feeling like you are a part of the outdoors. There is nothing more relaxing than having a shower whilst staring at the moon, hearing the waves crashing in the background. Over and above this, if you feel like a calm night in there is a braai on the front patio of the cabin that allows you to take in the gorgeous ocean and surroundings."
+  },
+  {
+    "name": "Forest Jewel",
+    "imageUrls": [
+      "https://i.ibb.co/9HxYYqc/emile-guillemot-Bj-rc-SC5-Xf-E-unsplash.jpg",
+      "https://i.ibb.co/R0X3tHp/spacejoy-Tb-Wzz-Daqg-RE-unsplash.jpg",
+      "https://i.ibb.co/ZKJQTdf/roberto-nickson-4-Ij-Uug-ITk1o-unsplash.jpg"
+    ],
+    "rentPerDay": 1000,
+    "type": "Non-Delux",
+    "maxCount": 2,
+    "currentBookings": [],
+    "description": "This is a fully kitted non-delux cabin that is beautifully furnished and decorated to the theme of the lush forestry surrounding us. The cabin has the following facilities: Aircon, a kitchenette with a fridge, a small stove, a microwave and a coffee station with a lavish seating area. This cabin has an indoor shower that will leave you refreshed and relaxed, leaving no worry but what your next adventure will hold. Over and above this, if you feel like a calm night in there is a braai on the front patio of the cabin that allows you to take in the gorgeous ocean and surroundings."
+  },
+  {
+    "name": "Coal Chamber",
+    "imageUrls": [
+      "https://i.ibb.co/7tVKZFv/spacejoy-ook8-KEPi-B6-A-unsplash.jpg",
+      "https://i.ibb.co/D16wvv7/andrea-davis-ei-NT9-Fk-ixk-unsplash.jpg",
+      "https://i.ibb.co/NSkSfgG/99-films-9-K-r-Mg-WLCYM-unsplash.jpg"
+    ],
+    "rentPerDay": 1500,
+    "type": "Deluxurious",
+    "maxCount": 2,
+    "currentBookings": [],
+    "description": "This is a fully kitted luxurious cabin that is beautifully furnished and decorated to the theme of the rich hues of charcoal. The cabin has the following facilities: Aircon, a kitchenette with a fridge, a small stove, a microwave and a coffee station with a lavish seating area. This cabin has an outdoor shower that will still leave you feeling like you are a part of the outdoors. There is nothing more relaxing than having a shower whilst staring at the moon, hearing the waves crashing in the background. Over and above this, if you feel like a calm night in there is a braai on the front patio of the cabin that allows you to take in the gorgeous ocean and surroundings."
+  },
+  {
+    "name": "Metal Spirit",
+    "imageUrls": [
+      "https://i.ibb.co/686Gyh5/spacejoy-n-Etpv-Jjn-PVo-unsplash.jpg",
+      "https://i.ibb.co/9g4LnyN/andrea-davis-su5-Zqai-WDJs-unsplash.jpg",
+      "https://i.ibb.co/ZfQJYz5/raquel-navalon-alvarez-eg4ha-Ibu-Bw4-unsplash.jpg"
+    ],
+    "rentPerDay": 1000,
+    "type": "Non-Delux",
+    "maxCount": 2,
+    "currentBookings": [],
+    "description": "This is a fully kitted non-delux cabin that is beautifully furnished and decorated to the theme of lustrous metallic colours. The cabin has the following facilities: Aircon, a kitchenette with a fridge, a small stove, a microwave and a coffee station with a lavish seating area. This cabin has an indoor shower that will leave you refreshed and relaxed, leaving no worry but what your next adventure will hold. Over and above this, if you feel like a calm night in there is a braai on the front patio of the cabin that allows you to take in the gorgeous ocean and surroundings."
+  },
+  {
+    "name": "Down to Earth",
+    "imageUrls": [
+      "https://i.ibb.co/SNjxmQ8/nathan-oakley-kf-IN3c-GA5x-E-unsplash.jpg",
+      "https://i.ibb.co/rf5BbC6/spacejoy-yo-Sb-Gcod-Ho-unsplash.jpg",
+      "https://i.ibb.co/5RL2WqT/curology-yc-EKah-Ea-O5-U-unsplash.jpg"
+    ],
+    "rentPerDay": 1000,
+    "type": "Non-Delux",
+    "maxCount": 2,
+    "currentBookings": [],
+    "description": "This is a fully kitted non-delux cabin that is beautifully furnished and decorated to the theme of deep earthy tones. The cabin has the following facilities: Aircon, a kitchenette with a fridge, a small stove, a microwave and a coffee station with a lavish seating area. This cabin has an indoor shower that will leave you refreshed and relaxed, leaving no worry but what your next adventure will hold. Over and above this, if you feel like a calm night in there is a braai on the front patio of the cabin that allows you to take in the gorgeous ocean and surroundings."
+  }
+]

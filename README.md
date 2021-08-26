@@ -13,23 +13,26 @@
 ## Table of Contents:
 
 - [System Architecture](#systemarchitecture)
-    - [How did I deploy the application and why?](#howdidideploytheapplicationandwhy?)
-    - [What tools did I use to style the application?](#whattoolsdidiusetostyletheapplication?)
-        - [Why am I using these libraries?](#whyamiusingtheselibraries?)
+  - [How did I deploy the application and why?](#howdidideploytheapplicationandwhy?)
+  - [What tools did I use to style the application?](#whattoolsdidiusetostyletheapplication?)
+    - [Why am I using these libraries?](#whyamiusingtheselibraries?)
 - [System Requirements Specification](#systemrequirementsspecification)
-    - [Analysing some existing web applications that do something similar to what I want to accomplish](#analysingsomeexistingwebapplicationsthatdosomethingsimilartowhatIwanttoaccomplish)
-    - [How am I going to make my website stand out from those of my competitors?](#howamigoingtomakemywebsitestandoutfromthoseofmycompetitors?)
-    - [Who will use the application and to what benefit?](#whowillusetheapplicationandtowhatbenefit?)
-    - [How will the application work?](#howwilltheapplicationwork?)
-    - [Functional and non-functional requirements of the web application](#functionalandnon-functionalrequirementsofthewebapplication)
-    - [User stories](#userstories?)
+  - [Analysing some existing web applications that do something similar to what I want to accomplish](#analysingsomeexistingwebapplicationsthatdosomethingsimilartowhatIwanttoaccomplish)
+  - [How am I going to make my website stand out from those of my competitors?](#howamigoingtomakemywebsitestandoutfromthoseofmycompetitors?)
+  - [Who will use the application and to what benefit?](#whowillusetheapplicationandtowhatbenefit?)
+  - [How will the application work?](#howwilltheapplicationwork?)
+  - [Functional and non-functional requirements of the web application](#functionalandnon-functionalrequirementsofthewebapplication)
+  - [User stories](#userstories?)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage Instructions](#usage-instructions)
+- [Instructions for Modifying Secret Keys](#instructionsformodifyingsecretkeys)
 - [Run Tests](#runtests)
 - [Application Security](#application-security)
 - [Handling of User Credentials and Other Secure Information](#handling-of-user-credentials-and-other-secure-information)
+- [Application Deployment](#applicationdeployment)
 - [Credits](#credits)
+  - [Images](#images)
 - [Author Details](#author-details)
 
 ## System Architecture
@@ -50,7 +53,7 @@ I have chosen this structure due to the following reasons:
 - The application will be scalable, fast and perform as it is intended to.
 - The application will be built using only one language, JavaScript, so it is easily integrable.
 
-### How did I deploy the application and why?
+### How will I deploy the application and why?
 
 I will be deploying the application using Heroku which is an open-source platform that offers a fast and efficient way to deploy full-stack applications.
 
@@ -139,20 +142,38 @@ Admin users are able to manage bookings, rooms and users via their own panel. Th
 
 ### User stories
 
----
-
-- | Name: | As a/ an: | I want to:                | So that I can:                                                                                                    |
-  | ----- | --------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-  | 1.    | Chanelle  | Destination Seeker        | View available accommodation.                                                                                     | Make a booking and know that it is not booked already.                                                         |
-  | 2.    | John      | Resort Manager            | Be informed of when guests will be expected.                                                                      | Coordinate staff to have the suite ready for arrivals.                                                         |
-  | 3.    | Ross      | Business Owner            | Allow only my business team to access an application with a list of bookings and be able to adjust the offerings. | Be assured that nobody else has access to view or edit sensitive information being shared via the application. |
-  | 4.    | William   | Food and Beverage Manager | View the amount of guests that are visiting.                                                                      | Make sure that the bar and restaurant is sufficiently stocked.                                                 |
-  | 5.    | Sam       | Office Manager            | Be aware of when guests will be checking in and out.                                                              | Remember the suite that I have booked for future reference.                                                    |
-  | 6.    | Tessa     | Holiday Maker             | View details of the booking after my visit.                                                                       | Remember the suite that I have booked for future reference.                                                    |
-  | 7.    | Ann       | Business Woman            | Possibly cancel my booking.                                                                                       | Cancel should the business meeting be cancelled.                                                               |
-  | 8.    | Tyron     | Event Manager             | View the bookings for the coming week.                                                                            | Arrange the entertainment offerings according to the amount guests expected.                                   |
-
----
+1. Name: Chanelle;
+   As a: Destination Seeker;
+   I want to: View available accommodation;
+   So that I can: Make a booking and know that it is not booked already.
+2. Name: John;
+   As a: Resort Manager;
+   I want to: Be informed of when guests will be expected;
+   So that I can: Coordinate staff to have the suite ready for arrivals.
+3. Name: Ross;
+   As a: Business Owner;
+   I want to: Allow only my business team to access an application with a list of bookings and be able to adjust the offerings;
+   So that I can: Be assured that nobody else has access to view or edit sensitive information being shared via the application.
+4. Name: William,
+   As a: Food and Beverage Manager;
+   I want to: View the amount of guests that are visiting;
+   So that I can: Make sure that the bar and restaurant is sufficiently stocked.
+5. Name: Sam;
+   As an: Office Manager;
+   I want to: Be aware of when guests will be checking in and out;
+   So that I can: Remember the suite that I have booked for future reference.
+6. Name: Tessa;
+   As a: Holiday Maker;
+   I want to: View details of the booking after my visit;
+   So that I can: Remember the suite that I have booked for future reference.
+7. Name: Ann;
+   As a: Business Woman;
+   I want to: Possibly cancel my booking;
+   So that I can: Cancel should the business meeting be cancelled.
+8. Name: Tyron;
+   As a: Event Manager;
+   I want to: View the bookings for the coming week;
+   So that I can: Arrange the entertainment offerings according to the amount guests expected.
 
 ## Prerequisites
 
@@ -202,14 +223,55 @@ npm install
 In the command line interface respectively type the following to run the client and server in development mode:
 
 - Client
+
 ```
 npm start
 ```
 
 - Server
+
 ```
 nodemon server.js
 ```
+
+I have included a provisionalCabins.JSON file with the application. Navigate to the MongoDB Compass console and via the collection import the file to view cabins via the application.
+
+In order to make bookings via the application authentication and authorization of users are required, thus you will have to register and login to experience the full scope of the application.
+
+Once you have done so you will be navigated to the Home screen where a list of the cabins will appear. You may click on the "View Details" button to view further information about the cabin.
+
+To make a booking the arrival and departure dates must be selected. Note that you can also filter via type and search via keywords. Once the dates are selected, a "Book Now" button will appear. If this is clicked on you will be navigated to a page providing the details of the booking.
+
+If you click on the "Pay Now" button Stripe Checkout will be fired and you will be able to enter the payment details. If you wish to test the payment feature you may use the following:
+
+Card number: 4242 4242 4242 4242
+Expiry Date: 02/22
+CV2: 2222
+
+Once the payment is completed this will be added to the Profile screen's "My Bookings" tab. A user, should they wish to do so, may cancel the booking by clicking on "Cancel Booking". The user's profile details may also be viewed here.
+
+In order to access the admin page, revisit the MongoDB Compass console and change isAdmin from false to true. Here you may view all of the bookings, rooms and users. An admin member may also delete a specific room, edit a user and create a new room.
+
+## Instructions for Modifying Secret Keys
+
+To enter your own key-value pair for the frontend/ Client of the application create a .env.local file in the root folder and enter the value of the following key:
+
+```
+REACT_APP_STRIPE_KEY=EnterValueHere
+```
+
+Stripe Checkout requires a key for the front-, as well as the backend.
+
+To enter your own values key-value pairs for the backend of the application create a .env file in the root folder and enter the values of the following keys:
+
+```
+DB_USERNAME=EnterValueHere
+DB_PASSWORD=EnterValueHere
+STRIPE_KEY=EnterValueHere
+JWT_SECRET=EnterValueHere
+```
+
+The DB_USERNAME and DB_PASSWORD is for the MongoDB Database, whereas the STRIPE_KEY is for the Stripe Checkout functionality and the JWT_SECRET is for the authentication of the application.
 
 ## Run Tests
 
@@ -231,6 +293,12 @@ Adding these headers can help in avoiding attacks such as Cross-Site-Scripting (
 
 Click here for more information: https://dev.to/eprenzlin/env-gitignore-and-protecting-api-keys-2b9l
 
+## Application Deployment
+
+Heroku allows running two applications on the same dyno. I have deployed my applications client and backend together by pushing the complete application to GitHub and through GitHub and Heroku's integrations deploying the application via the Heroku dashboard.
+
+Each local push that is made to GitHub will automatically update the deployed Heroku application, which in turn decreases the time updating the application on multiple platforms.
+
 ## Credits
 
 - HyperionDev - https://www.hyperiondev.com/
@@ -239,17 +307,85 @@ Click here for more information: https://dev.to/eprenzlin/env-gitignore-and-prot
 - Mongoose.js: https://mongoosejs.com/docs/models.html
 - Mongoose.js: https://mongoosejs.com/docs/queries.html
 - loizenai: https://loizenai.com/react-node-js-mongodb-crud/#define-nodejs-Mongoose-model
+- CodeWorkr - https://www.youtube.com/channel/UCfYTu_qAO5T7a-8rC_74Ypw
+- Udemy (K.Sathyaprakash Reddy)- https://www.udemy.com/certificate/UC-47a56878-1c06-4cb3-a2c3-8b9c1948a400/
+
+### Images
+
+- Unsplash:
+  https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+- Muhammadh Saamy: https://unsplash.com/@piiiiine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  https://unsplash.com/photos/GO1i2timuug
+- Alexander Kaunas: https://unsplash.com/@akaunas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  https://unsplash.com/photos/G6eXUCi8JgA
+- Dimitry B: https://unsplash.com/@dimitry_b
+  https://unsplash.com/photos/D3ZojRFM8rI
+- Austin Neill: https://unsplash.com/@arstyy
+  https://unsplash.com/photos/Vb3iBnRIhR4
+- Dan Gold: https://unsplash.com/@danielcgold
+  https://unsplash.com/photos/1XkHWekZE_M
+- Sebastian Pena Lambarri: https://unsplash.com/@sebaspenalambarri
+  https://unsplash.com/photos/7i5HMCGupVw
+- Antonio Scant: https://unsplash.com/@ascant
+  https://unsplash.com/photos/aFFXBx3Iu4o
+- Tim Marshall: https://unsplash.com/@timmarshall
+  https://unsplash.com/photos/hIHh4E4_OGA
+- Gabriella Clare Marino - https://unsplash.com/@gabiontheroad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  https://unsplash.com/photos/qJvzXvLFx9k
+- Cauayan Island Resort: https://unsplash.com/@cauayanislandresort?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  https://unsplash.com/photos/_h5OyNkFbOQ
+  https://unsplash.com/photos/imap-1lqT4o
+  https://unsplash.com/photos/E_FnocWHIlg
+- Nathan Oakley: https://unsplash.com/@nathanrjliving
+  https://unsplash.com/photos/kfIN3cGA5xE
+- Curology: https://unsplash.com/@curology
+  https://unsplash.com/photos/ycEKahEaO5U
+- Raquel Navalon Alvarez: https://unsplash.com/@rnavalon86
+  https://unsplash.com/photos/eg4haIbuBw4
+- 99.films: https://unsplash.com/@99films
+  https://unsplash.com/photos/9K-rMgWLCYM
+- Emile Guillemot: https://unsplash.com/@emilegt
+  https://unsplash.com/photos/Bj_rcSC5XfE
+- Roberto Nickson: https://unsplash.com/@rpnickson
+  https://unsplash.com/photos/4IjUugITk1o
+  https://unsplash.com/photos/HmieZw0YOC0
+- Benjamin Rascoe: https://unsplash.com/@dapperprofessional
+  https://unsplash.com/photos/bTkSg5XF4E8
+- Andrea Davis: https://unsplash.com/@andreaedavis
+  https://unsplash.com/photos/7450hH--84M
+  https://unsplash.com/photos/eiNT9Fk_ixk
+  https://unsplash.com/photos/su5ZqaiWDJs
+- Devon Janse van Rensburg: https://unsplash.com/@huntleytography
+  https://unsplash.com/photos/_WEDFTZV0qU
+- Spacejoy: https://unsplash.com/@spacejoy
+  https://unsplash.com/photos/TKFskJy8PQ8
+  https://unsplash.com/photos/TbWzzDaqgRE
+  https://unsplash.com/photos/ook8KEPiB6A
+  https://unsplash.com/photos/nEtpvJjnPVo
+  https://unsplash.com/photos/yoSb_GcodHo
+- Bob Vila, Sara Carpenter: https://www.bobvila.com/slideshow/beat-the-heat-16-diy-outdoor-showers-to-cool-you-down-44676
+  https://empire-s3-production.bobvila.com/slides/10012/vertical_slide_wide/14.jpg?1625019381
+  https://empire-s3-production.bobvila.com/slides/4670/vertical_slide_wide/11.jpg?1625019374
+
+- Pixabay:
+  https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1532212
+- unserekleinemaus: https://pixabay.com/users/unserekleinemaus-151475/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1532212
+  https://pixabay.com/photos/asia-thailand-koh-chang-massage-1532212/
+
+- Chanelle Bösiger
+  file:///C:/Users/chane/Downloads/images/IMG_20191221_123400.jpg
 
 ## Author
 
 👤 **Chanelle Bösiger**
 
-* Github: [@ChanBos](https://github.com/ChanBos)
-* LinkedIn: [@Chanelle Bösiger](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/chanelle-b%C3%B6siger-70587767\/)
+- Github: [@ChanBos](https://github.com/ChanBos)
+- LinkedIn: [@Chanelle Bösiger](https://linkedin.com/in/https://www.linkedin.com/in/chanelle-b%C3%B6siger-70587767/)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

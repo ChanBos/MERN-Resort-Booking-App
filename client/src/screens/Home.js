@@ -142,7 +142,7 @@ const Home = () => {
             }}
           >
             <option value="all">All</option>
-            <option value="delux">Delux</option>
+            <option value="deluxurious">Deluxurious</option>
             <option value="non-delux">Non-Delux</option>
           </select>
         </Col>
