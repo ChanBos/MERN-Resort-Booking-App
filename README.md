@@ -305,14 +305,14 @@ Each local push that is made to GitHub will automatically update the deployed He
 
 ## Credits
 
-- HyperionDev - https://www.hyperiondev.com/
-- Stack Overflow - https://stackoverflow.com/
+- HyperionDev: https://www.hyperiondev.com/
+- Stack Overflow: https://stackoverflow.com/
 - MongoDB: https://docs.mongodb.com/manual/crud/
 - Mongoose.js: https://mongoosejs.com/docs/models.html
 - Mongoose.js: https://mongoosejs.com/docs/queries.html
 - loizenai: https://loizenai.com/react-node-js-mongodb-crud/#define-nodejs-Mongoose-model
-- CodeWorkr - https://www.youtube.com/channel/UCfYTu_qAO5T7a-8rC_74Ypw
-- Udemy (K.Sathyaprakash Reddy)- https://www.udemy.com/certificate/UC-47a56878-1c06-4cb3-a2c3-8b9c1948a400/
+- CodeWorkr: https://www.youtube.com/channel/UCfYTu_qAO5T7a-8rC_74Ypw
+- Udemy (K.Sathyaprakash Reddy): https://www.udemy.com/certificate/UC-47a56878-1c06-4cb3-a2c3-8b9c1948a400/
 
 ### Images
 
