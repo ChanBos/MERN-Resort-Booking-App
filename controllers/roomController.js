@@ -90,6 +90,6 @@ exports.removeOneController = (req, res) => {
   Room.findByIdAndRemove(req.params.id)
     .then((rooms) => res.json({ message: "Room deleted successfully.", rooms }))
     .catch((err) =>
-      res.status(400).json({ message: "Error deleting the todo item.", err })
+      res.status(400).json({ message: "Error deleting the room.", err })
     );
 };
